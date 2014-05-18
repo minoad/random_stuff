@@ -1,0 +1,8 @@
+load screen
+
+ctrl ac = start new session
+ctrl an = switch between screens
+ctrl aS = split the terminal(second terminal blank.  need to run ctrl ac or ctrl an in order to start a new terminal or connect existing in the split)
+ctrl a<tab> = move between split windows
+ctr a| = split vertically
+ctr aX = close current screen
