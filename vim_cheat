@@ -1,0 +1,9 @@
+w = next word
+W = next WORD
+b = previous word
+B = previous WORD
+
+E = 
+
+* = search under char unbounded
+g* = serch under char bounded
