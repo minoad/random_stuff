@@ -1,9 +1,23 @@
+"Moving around
+h j k l
 w = next word
 W = next WORD
 b = previous word
 B = previous WORD
+e = forward to next end of word
 
-E = 
+"searching while in insert mode
+* = search under char bounded
+g* = serch under char unbounded
+# = search under char backwords bounded
+g# = search under char backwords unbounded
 
-* = search under char unbounded
-g* = serch under char bounded
+"yank = copy
+y = yank
+yw = yank word
+2yw = yank 2 words
+yy = yank line
+2yy = yank 2 lines
+p = paste after cursor
+P = paste before cursor
+
