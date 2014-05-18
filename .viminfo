@@ -17,11 +17,11 @@
 $
 
 # Command Line History (newest to oldest):
-:q
-:version
-:q!
 :wq
+:q!
+:q
 :w
+:version
 :tab new .vimrc
 :tabnew
 :tab NERDTree
@@ -138,18 +138,23 @@ $
 	</detection-run>
 
 # File marks:
-'0  1  0  ~/.git/index
-'1  52  0  ~/.git/index
-'2  3273  0  ~/.git/index
-'3  2  0  ~/.git/index
-'4  100  16  ~/.vimrc
-'5  6  8  ~/.vimrc
-'6  275  72  ~/.vimrc
-'7  274  72  ~/8
-'8  6  26  /etc/vim/vimrc.tiny
-'9  6  0  ~/Kismet-20140515-17-25-41-1.netxml
+'0  3  3  ~/README.md
+'1  5  0  ~/README.md
+'2  1  0  ~/.git/MERGE_MSG
+'3  10  0  ~/.git/index
+'4  1  0  ~/.git/index
+'5  52  0  ~/.git/index
+'6  3273  0  ~/.git/index
+'7  2  0  ~/.git/index
+'8  100  16  ~/.vimrc
+'9  6  8  ~/.vimrc
 
 # Jumplist (newest first):
+-'  3  3  ~/README.md
+-'  1  0  ~/README.md
+-'  5  0  ~/README.md
+-'  1  0  ~/.git/MERGE_MSG
+-'  10  0  ~/.git/index
 -'  1  0  ~/.git/index
 -'  52  0  ~/.git/index
 -'  3273  0  ~/.git/index
@@ -244,17 +249,24 @@ $
 -'  369  0  ~/.vim/bundle/tasklist/plugin/tasklist.vim
 -'  1  0  ~/.vim/bundle/tasklist/plugin/tasklist.vim
 -'  1  0  ~/.vim/.gitmodules
--'  1  0  ~/.vim/.gitmodules
--'  1  0  ~/.vim/.gitmodules
--'  1  0  ~/.vim/.gitmodules
 
 # Buffer list:
-%~/.git/index	1	0
+%~/README.md	3	3
 
 # History of marks within files (newest to oldest):
 
-> ~/.git/index
+> ~/README.md
+	"	3	3
+	^	3	4
+	.	3	3
+	+	5	0
+	+	3	3
+
+> ~/.git/MERGE_MSG
 	"	1	0
+
+> ~/.git/index
+	"	10	0
 
 > ~/.vimrc
 	"	1	12
