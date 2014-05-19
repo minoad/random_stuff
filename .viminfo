@@ -18,11 +18,11 @@ $
 
 # Command Line History (newest to oldest):
 :q
+:q!
 :w
 :tabe R/sample/m2.R
 :so%
 :wq
-:q!
 :tabe ~/vim_cheat
 :tabe matrix.R
 :tabe b1.R
@@ -151,19 +151,21 @@ $
 	fsfdsaf 
 
 # File marks:
-'0  1  13  ~/R/sample/m2.R
-'1  1  19  ~/.screenrc
-'2  8  0  ~/vim_cheat
-'3  6  26  /etc/vim/vimrc.tiny
-'4  30  0  /etc/kismet/kismet.conf
-'5  33  0  /etc/kismet/kismet.conf
-'6  27  0  /opt/set/README.md
-'7  1  22  ~/wireless_kit_standard.txt
-'8  1  0  /opt/metasploit/diagnostic_shell
-'9  1  0  /opt/metasploit/scripts/setenv.sh
+'0  5  8  ~/R/sample/m2.R
+'1  1  13  ~/R/sample/m2.R
+'2  1  19  ~/.screenrc
+'3  8  0  ~/vim_cheat
+'4  6  26  /etc/vim/vimrc.tiny
+'5  30  0  /etc/kismet/kismet.conf
+'6  33  0  /etc/kismet/kismet.conf
+'7  27  0  /opt/set/README.md
+'8  1  22  ~/wireless_kit_standard.txt
+'9  1  0  /opt/metasploit/diagnostic_shell
 
 # Jumplist (newest first):
+-'  5  8  ~/R/sample/m2.R
 -'  1  13  ~/R/sample/m2.R
+-'  2  0  ~/R/sample/m2.R
 -'  1  19  ~/.screenrc
 -'  8  0  ~/vim_cheat
 -'  6  26  /etc/vim/vimrc.tiny
@@ -259,20 +261,19 @@ $
 -'  1  0  ~/.vim/.gitmodules
 -'  1  0  ~/.vim/.gitmodules
 -'  1  0  ~/.vim/.gitmodules
--'  1  0  ~/.vim/.gitmodules
--'  1  0  ~/.vim/.gitmodules
--'  1  0  ~/.vim/.gitmodules
 
 # Buffer list:
-%~/R/sample/m2.R	1	13
+%~/R/sample/m2.R	5	8
 
 # History of marks within files (newest to oldest):
 
 > ~/R/sample/m2.R
-	"	1	13
-	^	1	14
-	.	1	13
-	+	1	13
+	"	5	8
+	^	4	9
+	.	4	9
+	+	1	0
+	+	8	0
+	+	4	9
 
 > ~/Downloads/Vim-R-plugin.vmb
 	"	1	0
